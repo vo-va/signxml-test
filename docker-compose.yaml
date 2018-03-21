@@ -1,0 +1,9 @@
+version: '3.5'
+services:
+  signxml-tests:
+    image: signxml-test
+    container_name: freeradius
+    build:
+      context: ./
+      dockerfile: Dockerfile
+    
